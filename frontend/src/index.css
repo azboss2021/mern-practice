@@ -17,3 +17,28 @@ header a {
   font-weight: bold;
   text-decoration: none;
 }
+
+main {
+  padding: 1rem;
+}
+
+.featured_products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featured_product {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+
+.featured_product img {
+  width: 100%;
+  max-width: 400px;
+  height: 450px;
+}
+
+.featured_product_info {
+  padding: 1rem;
+}
